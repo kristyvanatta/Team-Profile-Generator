@@ -10,14 +10,7 @@ describe("Engineer", () => {
 
         expect(employee.github).toBe(testUser);
     });
-
-    it("getRole() should return \'Engineer\'", () => {
-        const testEngineer = 'Engineer';
-        const employee = new Engineer("Jack", 124, 'test@email.com', "GitHubUser");
-
-        expect(employee.getRole()).toBe(testEngineer);
-    });
-
+    
     it("Should get Github username", () => {
         const testUser = "GitHubUser";
         const employee = new Engineer("Jack", 124, 'test@email.com', testUser);
@@ -25,4 +18,12 @@ describe("Engineer", () => {
         expect(employee.getGitHub()).toBe(testUser);
     });
     
+    it("getRole() should return \'Engineer\'", () => {
+        const testEngineer = 'Engineer';
+        const employee = new Engineer("Jack", 124, 'test@email.com', "GitHubUser");
+        
+        expect(employee.getRole()).toBe(testEngineer);
+    });
+
+
 })
