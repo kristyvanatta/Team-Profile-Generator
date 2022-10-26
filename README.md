@@ -27,8 +27,12 @@ THEN I exit the application, and the HTML is generated
 
 ## Mock-Up
 The following image shows a mock-up of the generated HTML's appearance and functionality:
+![HTML webpage titled “My Team” features cards listing employee names, titles, and other key info.](assets\10-object-oriented-programming-homework-demo.jpg)
 
-****add picture and video and repo link
+![GitHub Repo](https://github.com/kristyvanatta/Team-Profile-Generator)
+
+
+****video
 
 
 ## Tech Used
