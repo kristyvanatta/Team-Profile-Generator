@@ -1,5 +1,5 @@
 
-
+const Employee = require('../lib/Employee');
 const Engineer = require('../lib/Engineer');
 
 describe("Engineer", () => {
@@ -17,7 +17,7 @@ describe("Engineer", () => {
 
         expect(employee.getGitHub()).toBe(testUser);
     });
-    
+
     it("getRole() should return \'Engineer\'", () => {
         const testEngineer = 'Engineer';
         const employee = new Engineer("Jack", 124, 'test@email.com', "GitHubUser");
