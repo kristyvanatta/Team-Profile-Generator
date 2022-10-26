@@ -20,6 +20,6 @@ describe("Intern", () => {
         const testIntern = 'Intern';
         const employee = new Intern("Jack", 124, 'test@email.com', testIntern);
 
-        expect(employee.getSchool()).toBe(testIntern);
+        expect(employee.getRole()).toBe(testIntern);
     });
 })

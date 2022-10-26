@@ -7,7 +7,7 @@ it("Should set office number", () => {
     const testOfficeNum = 3456;
     const employee = new Manager("Jack", 124, 'test@email.com', testOfficeNum);
 
-    expect(employee.office).toBe(testOfficeNum);
+    expect(employee.officeNum).toBe(testOfficeNum);
 });
 
 it("Should get office number", () => {
