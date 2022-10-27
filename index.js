@@ -56,9 +56,17 @@ function mainMenu() {
     ]).then(({choice}) => {
         if(choice == 'Engineer') {
             makeEngineer()
+        } else if (choice == 'Intern') { 
+            makeIntern()
+        } else { (choice == 'Done')
+        console.log("Team profile successfully completed")
         }
-    })
-}
+        })
+        
+    
+
+
+
 
 function makeEngineer() {
     inquirer
@@ -90,7 +98,6 @@ function makeEngineer() {
         const newEng = new Engineer(engineerAns.name, engineerAns.ID, engineerAns.email, engineerAns.github);
         teamProfile.push(newEng);
         mainMenu()
-        console.log(teamProfile)
     })
 }
 
@@ -124,7 +131,7 @@ function makeIntern() {
         const newInt = new Intern(internAns.name, internAns.ID, internAns.email, internAns.school);
         teamProfile.push(newInt);
         mainMenu()
-        console.log(teamProfile)
+        
     })
 }
 
@@ -136,5 +143,4 @@ function makeIntern() {
 //     fs.writeFile('team.html', htmlContent, (err) =>
 //     err ? console.log(err) : console.log('Sucessfully created team profile')
 //     );
-// })
-
+}
