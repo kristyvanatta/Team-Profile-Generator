@@ -32,7 +32,7 @@ The following image shows a mock-up of the generated HTML's appearance and funct
 ![GitHub Repo](https://github.com/kristyvanatta/Team-Profile-Generator)
 
 
-![video](https://drive.google.com/file/d/1lt9LJwmHZyFKsWmoiNcqCEFm2-q1mG57/view)
+![video](https://drive.google.com/file/d/1-bKR_3v5QYfjiyPNI2AYqSRdtgluk22Q/view)
 
 
 ## Tech Used
